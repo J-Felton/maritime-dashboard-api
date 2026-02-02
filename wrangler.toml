@@ -1,0 +1,10 @@
+name = "maritime-dashboard-api"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Environment variables (we'll add secrets via CLI later)
+[vars]
+QUICKBASE_REALM = "your-realm"
+CLERK_PUBLISHABLE_KEY = "pk_test_..."
+
+# CORS settings for your frontend
